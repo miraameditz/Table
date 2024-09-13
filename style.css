@@ -73,3 +73,24 @@ body{
     padding: 0px 10px;
     border-radius: 10px;
 }
+
+
+@media (max-width: 768px) {
+    .table_form {
+        width: 90%;
+        padding: 30px 15px;
+    }
+
+    .input_one button {
+        width: 37%;
+        font-size: 13px;
+    }
+
+    .input_one input {
+        width: 63%;
+    }
+
+    #tableError {
+        font-size: 13px;
+    }
+}
