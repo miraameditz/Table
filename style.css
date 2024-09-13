@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body{
+    background-color: #141516;
+}
+
+.table_form {
+    width: 35%;
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    margin: 2% auto;
+}
+
+.input_one {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input_one input{
+    width: 70%;
+    padding: 10px 10px;
+    border-radius: 50px;
+    border: 2px solid #ff002b;
+    outline: #ff002b;
+    font-weight: 300;
+    color: #000;
+}
+
+.input_one input::placeholder{
+    color: #000;
+}
+
+.input_one button{
+    width: 30%;
+    border-radius: 50px;
+    padding: 10px 15px;
+    border: 2px solid #ff002b;
+    background-color: #ff002b;
+    color: #fff;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.input_one button:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+#output {
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #000;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+
+#output h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#tableError {
+    background-color: rgb(231, 75, 75);
+    color: #fff;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
